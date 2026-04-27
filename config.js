@@ -1,31 +1,23 @@
 const CHECKLISTS = {
   descargas: {
-    nombre: "Descargas",
-    campos: [
-      "Orden correcta",
-      "Material sin daño",
-      "Documentación completa",
+    nombre: "Checklist Descargas",
+    items: [
+      "Material correcto",
+      "Orden de compra disponible",
+      "Empaque en buen estado",
+      "Cantidad correcta",
       "Área limpia"
     ]
   },
 
   ensambles: {
-    nombre: "Ensambles",
-    campos: [
+    nombre: "Checklist Ensambles",
+    items: [
       "Componentes correctos",
       "Torque aplicado",
-      "Pieza sin defecto",
-      "Herramienta correcta"
-    ]
-  },
-
-  carga_controles: {
-    nombre: "Carga de Controles",
-    campos: [
-      "Programa cargado",
-      "Versión correcta",
-      "Prueba realizada",
-      "Respaldo guardado"
+      "Secuencia correcta",
+      "Pieza sin daño",
+      "Herramienta adecuada"
     ]
   }
 };
